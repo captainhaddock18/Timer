@@ -1,0 +1,70 @@
+
+#pause{
+    visibility: hidden;
+}
+html{
+    background-color: rgb(215, 246, 244);
+}
+#m1{
+    border: 0.5px solid rgb(8, 31, 52); 
+    background-color: rgb(8, 31, 52);
+    width: 50%;
+    height: 40%;
+    position: fixed; 
+    border-radius: 10px;
+    top:30%;
+    left:25%;
+
+}
+#timer{
+    color: white;
+    font-size: xxx-large;
+    font-family: sans-serif;
+    font-weight: 500;
+    position: relative;
+    border: 5px solid rgb(8, 31, 52);
+    width:60%;
+    left: 20%;
+    height: 20%;
+    text-align: center;
+    top:35%;
+}
+.buttons{
+    background-color: rgb(8, 31, 52);
+    border: 1px solid rgb(8, 31, 52); 
+    color: white;
+    position: relative;
+    width: 20%;
+    height: 10%;
+    top: 40%;
+    left: 40%;
+}
+#start{
+    position:absolute;
+    width:40%;
+    height:100%;
+    left:0%; 
+    border-radius: 5px;
+}
+#pause{
+    position: absolute;
+    width:40%;
+    height: 100%;
+    border-radius: 5px;
+}
+#restart{
+    position: absolute;
+    width:40%;
+    height: 100%;
+    left: 60%;
+    border-radius: 5px;
+}
+#heading{
+    background-color: rgb(8, 31, 52);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-weight: 200;
+    font-size: xx-large;
+    
+}
